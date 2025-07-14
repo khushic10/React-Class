@@ -1,0 +1,37 @@
+.container {
+	text-align: center;
+	margin-top: 50px;
+	font-family: Arial, sans-serif;
+}
+
+.input-box {
+	padding: 10px;
+	font-size: 16px;
+	width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.table-wrapper {
+	margin-top: 20px;
+}
+
+.table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-size: 18px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table td {
+	padding: 10px 16px;
+	border: 1px solid #ddd;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.table tr:hover {
+	background-color: #f1f1f1;
+}
