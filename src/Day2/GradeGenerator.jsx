@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function StudentGradeEvaluator() {
+function GradeGenerator() {
 	const [name, setName] = useState("");
 	const [marks, setMarks] = useState("");
 	const [grade, setGrade] = useState("");
@@ -62,4 +62,4 @@ function StudentGradeEvaluator() {
 	);
 }
 
-export default StudentGradeEvaluator;
+export default GradeGenerator;
