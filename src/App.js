@@ -1,13 +1,14 @@
 import "./App.css";
-import AnimalSoundApp from "./Day4/AnimalSoundApp";
-import DarkLightToggle from "./Day4/DarkLight";
-import EmojiPickerComponent from "./Day4/EmojiPicker";
-import UserPage from "./Day4/Users";
+import ContactForm from "./Day5/ContactForm";
+import Counter from "./Day5/Counter";
+import FocusInput from "./Day5/FocusInput";
+import Parent from "./Day5/LiftingState";
+import LoginForm from "./Day5/LoginForm";
 
 function App() {
 	return (
 		<div className="App">
-			<EmojiPickerComponent />
+			<Parent />
 		</div>
 	);
 }
