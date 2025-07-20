@@ -3,7 +3,7 @@ import Path from "./Path";
 
 function App() {
 	return (
-		<div className="App">
+		<div>
 			<Path />
 		</div>
 	);

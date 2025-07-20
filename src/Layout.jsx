@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./Component/Navbar";
 import { Outlet } from "react-router-dom";
+import DayNavigation from "./Day7/Components/DayNavigation";
 
 export default function Layout() {
 	return (
 		<div>
-			<Navbar />
-			<Outlet />
+			<DayNavigation />
+			<div className="App">
+				<Outlet />
+			</div>
 		</div>
 	);
 }

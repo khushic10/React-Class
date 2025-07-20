@@ -12,6 +12,7 @@ function ViewUser() {
 			.then((data) => setUsers(data))
 			.catch((err) => console.error("Error:", err));
 	}, []);
+
 	const handleDetailsClick = (id) => {
 		navigate(`/userDetails/${id}`);
 	};
