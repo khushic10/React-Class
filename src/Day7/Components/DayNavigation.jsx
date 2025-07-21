@@ -38,6 +38,7 @@ const DayNavigation = () => {
 			"Login Form",
 		],
 		"Day 6": ["View User", "Home"],
+		"Day 8": ["ToDo"],
 	};
 
 	// Convert label to path-friendly string
