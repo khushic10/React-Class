@@ -44,10 +44,13 @@ import Home from "./Day6/Home";
 import UserDetails from "./Day6/UserDetails";
 import MergeArrays from "./Day3/MergeArrays";
 import Intro from "./Intro";
+import PageNotFound from "./PageNotFound";
+import TodoApp from "./Day8/Todo";
 
 export default function Path() {
 	return (
 		<Routes>
+			<Route path="*" element={<PageNotFound />} />
 			<Route path="/" element={<Layout />}>
 				{/* Default route (optional) */}
 				<Route index element={<Intro />} />
@@ -98,6 +101,8 @@ export default function Path() {
 				<Route path="/day6/view-user" element={<ViewUser />} />
 				<Route path="/day6/home" element={<Home />} />
 				<Route path="/userDetails/:id" element={<UserDetails />} />
+				{/* Day 8 Routes */}
+				<Route path="/day8/todo" element={<TodoApp />} />
 			</Route>
 		</Routes>
 	);
