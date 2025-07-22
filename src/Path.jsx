@@ -46,6 +46,7 @@ import MergeArrays from "./Day3/MergeArrays";
 import Intro from "./Intro";
 import PageNotFound from "./PageNotFound";
 import TodoApp from "./Day8/Todo";
+import CompleteForm from "./Day9/CompleteForm";
 
 export default function Path() {
 	return (
@@ -103,6 +104,8 @@ export default function Path() {
 				<Route path="/userDetails/:id" element={<UserDetails />} />
 				{/* Day 8 Routes */}
 				<Route path="/day8/todo" element={<TodoApp />} />
+				{/* Day 9 Routes */}
+				<Route path="/day9/stepform" element={<CompleteForm />} />
 			</Route>
 		</Routes>
 	);
