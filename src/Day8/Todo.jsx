@@ -50,7 +50,7 @@ const TodoApp = () => {
 
 	const toggleComplete = async (id, completed) => {
 		try {
-			const res = await axios.put(`${BASE_URL}/${id}`, {
+			const res = await axios.put(`https://dummyjson.com/todos/${id}`, {
 				completed: !completed,
 			});
 			setTodos(
